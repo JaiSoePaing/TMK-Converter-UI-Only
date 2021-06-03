@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="About App">
+        <Preference
+            android:summary="@string/app_name"
+            android:title="App Name" />
+        <Preference
+            android:summary="1.0"
+            android:title="App Version" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="About Developer">
+        <Preference
+            android:key="@string/about"
+            android:summary="Soe Paing"
+            android:title="Developer" />
+        <Preference
+            android:key="@string/contact"
+            android:summary="soepaingmohnyin.mm@gmail.com"
+            android:title="Contact or Feedback to Developer" />
+    </PreferenceCategory>
+</PreferenceScreen>
+
+  
